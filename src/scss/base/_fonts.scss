@@ -1,0 +1,29 @@
+@font-face {
+    src:
+        local('AlluraRegular'),
+        url('../../assets/fonts/Allura-Regular.woff2') format('woff2');
+    font-family: AlluraRegular;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src:
+        local('MontserratRegular'),
+        url('/src/assets/fonts/Montserrat-Regular.woff2') format('woff2');
+    font-family: MontserratRegular;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src:
+        local('MontserratSemiBold'),
+        url('/src/assets/fonts/Montserrat-SemiBold.woff2') format('woff2');
+    font-family: MontserratSemiBold;
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

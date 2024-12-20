@@ -1,0 +1,81 @@
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth !important;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.body {
+    overflow-x: hidden;
+
+    &--fixed {
+        overflow-y: hidden;
+    }
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+    margin: 0;
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+    padding: 0;
+}
+
+button {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+label {
+    cursor: pointer;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 var(--container-padding);
+    max-width: calc(var(--container-width) + (var(--container-padding) * 2));
+}
+
+.magic-btn {
+    border-radius: 20px;
+    padding: 20px 32px;
+    color: #fff;
+    background-color: var(--primary-color-dark);
+}
+
+.hidden {
+    font-size: 0;
+    opacity: 0;
+    visibility: hidden;
+}
