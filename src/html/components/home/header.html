@@ -1,19 +1,26 @@
+<div class="overlay" data-burger="overlay"></div>
 <header class="header">
     <div class="container">
         <div class="header__nav">
-            <div class="header__nav-logo">
+            <a href="./" class="header__nav-logo">
                 <img src="/assets/icons/logo.svg" alt="logo-image" />
-
-                <a href="./" class="header__nav-logo-text heading-h4"
-                    >the gifts</a
-                >
+                <h3 class="header__nav-logo-text heading-h4">the gifts</h3>
+            </a>
+            <div class="header__right" data-burger="menu">
+                <nav class="nav">
+                    <ul class="header__nav-list heading-h4">
+                        <li><a href="" class="header__nav-item">gifts</a></li>
+                        <li><a href="" class="header__nav-item">about</a></li>
+                        <li><a href="" class="header__nav-item">best</a></li>
+                        <li>
+                            <a href="" class="header__nav-item">contacts</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <ul class="header__nav-list heading-h4">
-                <li><a href="" class="header__nav-item">gifts</a></li>
-                <li><a href="" class="header__nav-item">about</a></li>
-                <li><a href="" class="header__nav-item">best</a></li>
-                <li><a href="" class="header__nav-item">contacts</a></li>
-            </ul>
+            <button class="burger" data-burger="btn" aria-label="Burger menu">
+                <span class="burger__line"></span>
+            </button>
         </div>
         <div class="header__hero">
             <div class="header__hero-bg">

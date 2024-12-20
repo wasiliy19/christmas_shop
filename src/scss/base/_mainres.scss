@@ -72,6 +72,12 @@ label {
     padding: 20px 32px;
     color: #fff;
     background-color: var(--primary-color-dark);
+    transition: var(--transition);
+
+    &:hover {
+        color: var(--primary-color-dark);
+        background-color: var(--white-color-1);
+    }
 }
 
 .hidden {
